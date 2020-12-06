@@ -17,5 +17,12 @@ public class TestPerson {
         //then
         Assert.assertEquals(expected, actual);
     }
+    @Test
+    public void testConstructName(){
+        String expected = "David";
+        Person person = new Person(expected);
+        String actual = person.getName();
+        Assert.assertEquals(expected,actual);
+    }
 
 }

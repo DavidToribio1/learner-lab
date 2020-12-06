@@ -9,7 +9,7 @@ public class Classroom {
 
     public Classroom(){
         TechConnect techConnect = new TechConnect();
-        this.students = techConnect.();
+        this.students = techConnect.getStudents();
         this.instructors = ZipCodeWilmington.getInstructors();
 
     }
